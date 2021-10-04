@@ -14,6 +14,7 @@ public class Main {
         MyThreads2.start();
         MyThread3.start();
         MyThreads4.start();
+        //запуск потока но
 
         try {
             Thread.sleep(15000);

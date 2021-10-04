@@ -1,9 +1,9 @@
 package ru.netology;
 
-class Threads extends Thread implements Runnable {
+class Threads extends Thread {
 
     public Threads(String ThreadName,ThreadGroup mainGroup) {
-
+        super(mainGroup, ThreadName);
     }
 
     @Override
